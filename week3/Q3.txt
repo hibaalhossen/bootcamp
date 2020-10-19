@@ -1,0 +1,38 @@
+Q3
+
+Variables
+    Initialize inputnumber as ann integer;
+    Initialize indexstart=0;
+    Initialize indexEnd=n-1;
+    Initialize Digtarray as an array.
+
+Input:
+Prompt 'please enter the Numbers.'
+
+
+Processing:
+step1 :
+   check the input :
+     if inputnumber is empty or string
+       Display 'please enter only Numbers'
+     else
+       convert inputnumber into Diglist
+
+step2 :
+    but the incomming input in Digtarray.
+
+
+step3 :
+      make a loop , inside the loop swap 
+      arry[indexstart]and arry[indexEnd].
+
+step4 :
+       change (start and end) arreys as follows:
+        indexstart=start+1, indexEnd = indexEnd -1.
+ 
+
+Output :
+     display 'the input array'.
+     display 'the reversed list is'+Digtarray
+
+End

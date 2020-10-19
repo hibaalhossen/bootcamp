@@ -1,0 +1,38 @@
+which digit appears most
+
+Variables
+    Initialize inputnumber as ann integer;
+    Initialize count=0;
+    Initialize Diglist as an array
+
+Input:
+Prompt 'please enter the Numbers.'
+
+
+Processing:
+step1 :
+   check the input :
+     if inputnumber is empty or string
+       Display 'please enter only Numbers'
+     else
+       convert inputnumber into Diglist
+
+step2 :
+    go to Diglist and but it in a sorted array.
+
+
+step3 :
+      make a loop pass over the list and start to            compare the current Number to previous numbers.
+
+step4 :
+     If the previous number equals the current then         you have a duplicate.
+     else the number is uniqe so dont make a counter         for it.
+      End if 
+ 
+step5 :
+     make comparing between the duplicate numbers by      make a counter for each duplicated Num, then      choose the largest count for duplicated number.
+    
+Output :
+     display the most duplicated number
+
+End
